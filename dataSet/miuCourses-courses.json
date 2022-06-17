@@ -1,0 +1,216 @@
+[{
+	"_id": {
+		"$oid": "6293f954fbb776bdfdf4a089"
+	},
+	"title": "Enterprise Architecture",
+	"code": "CS544",
+	"description": "This course focuses on teaching the principles and practices used when developing larger-scale enterprise applications. We will examine the different architectural layers that are frequently used and different technologies associated with these layers, including Object Relational Mapping (ORM), Dependency Injection (DI), Aspect Oriented Programming (AOP), and integration with other applications through Web Services (RESTfull and SOAP), Messaging and remote method invocation. Must have a working knowledge of relational databases and SQL.",
+	"rate": 5,
+	"professors": [
+		{
+			"fullname": "Najeeb Najeeb",
+			"email": "najeeb@miu.edu",
+			"_id": {
+				"$oid": "6293f954fbb776bdfdf4a08a"
+			}
+		},
+		{
+			"fullname": "Payman Salek",
+			"email": "payman@miu.edu",
+			"_id": {
+				"$oid": "6293f954fbb776bdfdf4a08b"
+			}
+		},
+		{
+			"fullname": "Rene de Jong",
+			"email": "rene@miu.edu",
+			"_id": {
+				"$oid": "6293f954fbb776bdfdf4a08c"
+			}
+		}
+	],
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "6293f96dfbb776bdfdf4a08e"
+	},
+	"title": "Web Application Architecture",
+	"code": "CS545",
+	"description": "This course focuses web applications in an enterprise setting. An enterprise application is a large software system designed to operate in a large organization such as a corporation or a government. Enterprise applications are complex, scalable, component-based, distributed and mission critical.",
+	"rate": 3,
+	"professors": [
+		{
+			"fullname": "Umur Inan",
+			"email": "inan@miu.edu",
+			"_id": {
+				"$oid": "6293f96dfbb776bdfdf4a08f"
+			}
+		},
+		{
+			"fullname": "Muhyieddin Khaled",
+			"email": "khaled@miu.edu",
+			"_id": {
+				"$oid": "6293f96dfbb776bdfdf4a090"
+			}
+		}
+	],
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "6293f980fbb776bdfdf4a092"
+	},
+	"title": "Algorithms",
+	"code": "CS435",
+	"description": "This course presents methods for analyzing the efficiency of algorithms (including worst-case and average-case analysis) and introduces a variety of known, highly efficient algorithms. Analysis, design, and implementation of algorithms are given equal emphasis. ",
+	"rate": 3,
+	"professors": [
+		{
+			"fullname": "Paul Corozza",
+			"email": "paul@miu.edu",
+			"_id": {
+				"$oid": "6293f980fbb776bdfdf4a093"
+			}
+		},
+		{
+			"fullname": "Mei Lee",
+			"email": "lee@miu.edu",
+			"_id": {
+				"$oid": "6293f980fbb776bdfdf4a094"
+			}
+		},
+		{
+			"fullname": "Emdad Khan",
+			"email": "khan@miu.edu",
+			"_id": {
+				"$oid": "6293f980fbb776bdfdf4a095"
+			}
+		},
+		{
+			"fullname": "Premchand Nair",
+			"email": "nair@miu.edu",
+			"_id": {
+				"$oid": "6293f980fbb776bdfdf4a096"
+			}
+		},
+		{
+			"fullname": "Clyde Ruby",
+			"email": "ruby@miu.edu",
+			"_id": {
+				"$oid": "6293f980fbb776bdfdf4a097"
+			}
+		}
+	],
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "6293f992fbb776bdfdf4a099"
+	},
+	"title": "Fundamental Programming Practices",
+	"code": "CS390",
+	"description": "This course provides a focused program for enhancing programming and analytical skills in five areas: problem solving, data structures, object-oriented programming, the Java programming language, and the use of recursion in Java programs.",
+	"rate": 4,
+	"professors": [
+		{
+			"fullname": "Renuka Mohanraj",
+			"email": "renuka@miu.edu",
+			"_id": {
+				"$oid": "6293f992fbb776bdfdf4a09a"
+			}
+		},
+		{
+			"fullname": "Ankhtuya Ochirbat",
+			"email": "anka@miu.edu",
+			"_id": {
+				"$oid": "6293f992fbb776bdfdf4a09b"
+			}
+		},
+		{
+			"fullname": "Assad Malouf",
+			"email": "assad@miu.edu",
+			"_id": {
+				"$oid": "6293f992fbb776bdfdf4a09c"
+			}
+		},
+		{
+			"fullname": "Michael Yang",
+			"email": "yang@miu.edu",
+			"_id": {
+				"$oid": "6293f992fbb776bdfdf4a09d"
+			}
+		},
+		{
+			"fullname": "Sanad AbuRass",
+			"email": "sanad@miu.edu",
+			"_id": {
+				"$oid": "6293f992fbb776bdfdf4a09e"
+			}
+		},
+		{
+			"fullname": "Pont Htoo",
+			"email": "pont@miu.edu",
+			"_id": {
+				"$oid": "6293f992fbb776bdfdf4a09f"
+			}
+		}
+	],
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "62ace856aad71170217dc3fc"
+	},
+	"title": "Modern Web Applications",
+	"code": "CS572",
+	"description": "In this course you will learn the Reactive Programming Architecture of SPA (Single Page Web Applications) along with all the necessary skills to build a full Modern Web Application. Technologies include: NodeJS, ExpressJS, TypeScript, AngularJS2, Firebase and NoSQL databases (MongoDB)",
+	"rate": 5,
+	"professors": [],
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "62ace8b4aad71170217dc412"
+	},
+	"title": "Temp course",
+	"code": "CS500",
+	"description": "test",
+	"rate": 1,
+	"professors": [],
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "62ace8c9aad71170217dc414"
+	},
+	"title": "Test",
+	"code": "CS560",
+	"description": "test",
+	"rate": 4,
+	"professors": [],
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "62ace8e1aad71170217dc416"
+	},
+	"title": "another test",
+	"code": "CS409",
+	"description": "test",
+	"rate": 2,
+	"professors": [],
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "62ace8f1aad71170217dc418"
+	},
+	"title": "temp",
+	"code": "CS309",
+	"description": "test",
+	"rate": 4,
+	"professors": [],
+	"__v": 0
+}]
+

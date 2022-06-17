@@ -1,0 +1,29 @@
+<button *ngIf="!isFormVisible" (click)="onEditClick()" style="background-color: rgb(51, 153, 208); color: aliceblue;">Edit</button>
+<div *ngIf="isFormVisible" >
+    <form  #editCourseForm="ngForm" (ngSubmit)="onUpdateClick()">
+        <div>
+            <h3>If left empty, will not change that part! </h3><br/>
+            <label>
+                Course Title:
+                <input name="title" ngModel/>
+            </label><br/>
+            <label>
+                Course Code:
+                <input name="code"  ngModel/>
+            </label><br/>
+            <label>
+                Course Rate:
+                <input name="rate" ngModel/>
+            </label><br/>
+            <label>
+                Course Description:
+                <input name="description"  ngModel/>
+            </label><br/>
+            <input  type="hidden" name="_id" ngModel/>
+            <input  type="hidden" name="professors" ngModel/>
+            <button type="submit" style="background-color: rgb(51, 153, 208); color: aliceblue;">Update</button>
+            <button (click)="onCancel()" style="background-color: rgb(51, 153, 208); color: aliceblue;">Cancel</button>
+            <!-- <button (click)="onDelete()">Delete</button> -->
+        </div>
+    </form>
+</div>

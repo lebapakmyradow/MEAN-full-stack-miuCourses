@@ -1,0 +1,21 @@
+<h1>Course {{course.title}} <br/></h1>
+Rate: {{course.rate}} stars - <app-stars-rating [rating]="course.rate"></app-stars-rating> <br/>
+Code: {{course.code}} <br/>
+Description: {{course.description}} <br/>
+
+
+Taught by:<br/>
+<ul>
+    <li *ngFor="let professor of course.professors">
+        Fullname: {{professor.fullname}}<br/>
+        Email: {{professor.email}}<br/>
+    </li>
+</ul>
+
+
+ <button [disabled]="!isLoggedIn" (click)="onDelete(course._id)" >Delete</button> 
+ <button (click)="onBack()">Back</button> 
+
+ <app-edit-course  *ngIf="isLoggedIn" [courseId]="course._id"  [course]="course" (editCourseEmitter)="onCourseChange($event)"></app-edit-course>
+
+

@@ -1,0 +1,115 @@
+[
+    {
+        "title": "Modern Web Applications",
+        "code": "CS572",
+        "description": "In this course you will learn the Reactive Programming Architecture of SPA (Single Page Web Applications) along with all the necessary skills to build a full Modern Web Application. Technologies include: NodeJS, ExpressJS, TypeScript, AngularJS2, Firebase and NoSQL databases (MongoDB)",
+        "rate": 5,
+        "professors": [
+            {
+                "fullname": "Najeeb Najeeb",
+                "email": "najeeb@miu.edu"
+            }, 
+            {
+                "fullname": "Asaad Saad",
+                "email": "asaad@miu.edu"
+            }
+        ]
+    }, 
+    {
+        "title": "Enterprise Architecture",
+        "code": "CS544",
+        "description": "This course focuses on teaching the principles and practices used when developing larger-scale enterprise applications. We will examine the different architectural layers that are frequently used and different technologies associated with these layers, including Object Relational Mapping (ORM), Dependency Injection (DI), Aspect Oriented Programming (AOP), and integration with other applications through Web Services (RESTfull and SOAP), Messaging and remote method invocation. Must have a working knowledge of relational databases and SQL.",
+        "rate": 5,
+        "professors": [
+            {
+                "fullname": "Najeeb Najeeb",
+                "email": "najeeb@miu.edu"
+            }, 
+            {
+                "fullname": "Payman Salek",
+                "email": "payman@miu.edu"
+            }, 
+            {
+                "fullname": "Rene de Jong",
+                "email": "rene@miu.edu"
+            }
+        ]
+    },
+    {
+        "title": "Web Application Architecture",
+        "code": "CS545",
+        "description": "This course focuses web applications in an enterprise setting. An enterprise application is a large software system designed to operate in a large organization such as a corporation or a government. Enterprise applications are complex, scalable, component-based, distributed and mission critical.",
+        "rate": 3,
+        "professors": [
+            {
+                "fullname": "Umur Inan",
+                "email": "inan@miu.edu"
+            }, 
+            {
+                "fullname": "Muhyieddin Khaled",
+                "email": "khaled@miu.edu"
+            }
+        ]
+    },
+    {
+        "title": "Algorithms",
+        "code": "CS435",
+        "description": "This course presents methods for analyzing the efficiency of algorithms (including worst-case and average-case analysis) and introduces a variety of known, highly efficient algorithms. Analysis, design, and implementation of algorithms are given equal emphasis. ",
+        "rate": 3,
+        "professors": [
+            {
+                "fullname": "Paul Corozza",
+                "email": "paul@miu.edu"
+            }, 
+            {
+                "fullname": "Mei Lee",
+                "email": "lee@miu.edu"
+            },
+            {
+                "fullname": "Emdad Khan",
+                "email": "khan@miu.edu"
+            }, 
+            {
+                "fullname": "Premchand Nair",
+                "email": "nair@miu.edu"
+            },
+            {
+                "fullname": "Clyde Ruby",
+                "email": "ruby@miu.edu"
+            }
+        ]
+    },
+    {
+        "title": "Fundamental Programming Practices",
+        "code": "CS390",
+        "description": "This course provides a focused program for enhancing programming and analytical skills in five areas: problem solving, data structures, object-oriented programming, the Java programming language, and the use of recursion in Java programs.",
+        "rate": 4,
+        "professors": [
+            {
+                "fullname": "Renuka Mohanraj",
+                "email": "renuka@miu.edu"
+            }, 
+            {
+                "fullname": "Ankhtuya Ochirbat",
+                "email": "anka@miu.edu"
+            },
+            {
+                "fullname": "Assad Malouf",
+                "email": "assad@miu.edu"
+            }, 
+            {
+                "fullname": "Michael Yang",
+                "email": "yang@miu.edu"
+            },
+            {
+                "fullname": "Sanad AbuRass",
+                "email": "sanad@miu.edu"
+            }, 
+            {
+                "fullname": "Pont Htoo",
+                "email": "pont@miu.edu"
+            }
+        ]
+    }
+
+]

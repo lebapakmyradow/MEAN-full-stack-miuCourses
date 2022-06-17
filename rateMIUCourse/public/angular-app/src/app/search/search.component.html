@@ -1,0 +1,14 @@
+
+
+<form #movieForm="ngForm">
+    Write Course Title: <input style="width: auto;" type="text" class="form-control" id="title"
+       required
+       [(ngModel)]="title" name="title" /><br/>
+    <h4><button (click)="search()" style="background-color: green; color:aliceblue">Search</button></h4>
+</form>
+
+<ul>
+    <li *ngFor="let course of courses">
+        <a routerLink="/courses/{{course._id}}">{{course.title}} - {{course.code}}</a>
+    </li>
+</ul>

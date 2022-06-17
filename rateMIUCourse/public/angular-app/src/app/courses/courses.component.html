@@ -1,0 +1,8 @@
+The list of Courses :<br/>
+<ul>
+    <li *ngFor="let course of courses">
+        <a routerLink="{{course._id}}">{{course.title}} - {{course.code}}</a>
+    </li>
+</ul>
+
+<button (click)="previous()" [disabled]="isOffsetZero">Previous</button><button (click)="next()" [disabled]="isCountZero">Next</button>

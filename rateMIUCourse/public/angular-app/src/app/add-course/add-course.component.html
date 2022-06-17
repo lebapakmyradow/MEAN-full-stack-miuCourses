@@ -1,0 +1,35 @@
+<div *ngIf="isError" class="alert alert-dismissible alert-danger">
+    {{notificationMessage}}
+</div>
+<div *ngIf="isSuccess" class="alert alert-dismissible alert-success">
+    {{notificationMessage}}
+</div>
+<form #courseForm="ngForm" (ngSubmit)="onSubmit()">
+    <div>
+        <label>
+            Course Title: <input name="title" ngModel/> 
+        </label> <br/>
+    </div>
+    <div>
+        <label>
+            Course Code:
+            <input name="code"  ngModel/>
+        </label><br/>
+    </div>
+    <div>
+        <label>
+            Course Description: <input name="description" ngModel/> 
+        </label> <br/>
+    </div>
+    <div>
+        <label>
+            Course Rate: <input name="rate" ngModel/> 
+        </label> <br/>
+    </div>
+    
+    
+    <input  type="hidden" name="_id" ngModel/>
+    <input  type="hidden" name="professors" ngModel/>
+
+    <button type="submit" style="background-color: green; color:aliceblue">Add</button>
+</form>

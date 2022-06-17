@@ -1,0 +1,10 @@
+<nav>
+    <button routerLink="/" style="background-color: rgb(51, 153, 208); color: aliceblue;">Home</button>
+    <button routerLink="/courses" style="background-color: rgb(51, 153, 208); color: aliceblue;">Courses</button>
+    <button routerLink="/search" style="background-color: rgb(51, 153, 208); color: aliceblue;">Search</button>
+        <button *ngIf="isLoggedIn" routerLink="/addNew" style="background-color: rgb(51, 153, 208); color: aliceblue;">Add Course</button>
+        <button *ngIf="!isLoggedIn" routerLink="/register" style="background-color: rgb(51, 153, 208); color: aliceblue;">Register</button>
+        <app-login class="right" style="float: right; "></app-login>
+   
+    
+</nav>
